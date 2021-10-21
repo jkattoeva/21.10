@@ -21,3 +21,27 @@ header,article {
   max-width: 600px;
   margin: 0 auto;
 }
+article>p {
+  color: darkgray;
+}
+h1+p {
+  text-decoration: underline;
+}
+h1~p {
+  font-style: italic;
+}
+li {
+  list-style-type: square;
+}
+ul ul li {
+  list-style-type: circle;
+}
+p:only-child {
+
+}
+a[title] {
+  color: red;
+}
+a[href="./hello.html"] {
+  font-weight: bold;
+}
